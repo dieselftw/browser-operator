@@ -1,9 +1,9 @@
 import { Router } from 'express';
-import { getExamples } from '../controllers/example.controller';
+import { interact } from '../controllers/example.controller';
 
 const router = Router();
 
 // Define routes
-router.get('/', getExamples); // GET /api/examples
+router.post('/interact', interact)
 
 export default router;

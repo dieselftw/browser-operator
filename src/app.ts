@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api/examples', exampleRoutes);
+app.use('/api', exampleRoutes);
 
 connectDB().then(() => {
   app.listen(port, () => {
