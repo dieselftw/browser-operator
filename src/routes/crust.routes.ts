@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { interact } from '../controllers/example.controller';
+import { interact } from '../controllers/crust.controller';
 
 const router = Router();
 
